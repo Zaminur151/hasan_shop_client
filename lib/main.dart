@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hasan_shop_client/pages/home_screen.dart';
+import 'pages/login_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HomeScreen(),
+      home: LoginScreen(),
     );
   }
 }
