@@ -55,11 +55,6 @@ class LoginScreen extends StatelessWidget {
                   ))
                 ]
               )
-
-            //  TextSpan(
-            //   text: 'Don\'t have an account?',
-            //    children: <>
-            // ),
             )
           ],
         ),
